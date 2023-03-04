@@ -68,8 +68,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Database.cs" />
+    <Compile Include="DatabaseProvider.cs" />
+    <Compile Include="DatabaseProviderOleDb.cs" />
     <Compile Include="DIaLogiKa.cs" />
     <Compile Include="ExcelDataReader.cs" />
+    <Compile Include="OleDB.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Spire.cs" />
